@@ -1,0 +1,52 @@
+.container {
+    max-width: 1180px;
+    width: 100%;
+}
+
+
+.movicard {
+    height: 100vh;
+}
+
+.movicard img {
+    height: 100%;
+    object-fit: cover;
+
+}
+
+figcaption.caption {
+    position: absolute;
+    top: 0%;
+    left: 0;
+    width: 50%;
+    color: white;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)70%, transparent);
+    height: 100%;
+}
+
+button.owl-prev,
+.owl-next {
+    position: absolute;
+    top: 50%;
+    color: white !important;
+    font-size: 50px !important;
+}
+
+.owl-next {
+    right: 10px;
+
+}
+
+   .owl-prev {
+    left: 10px;
+
+}
+
+.owl-dots {
+    bottom: 20px;
+    position: absolute;
+    text-align: center;
+    left: 0;
+    
+    width: 100%;
+}
