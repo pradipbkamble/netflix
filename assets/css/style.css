@@ -11,6 +11,7 @@
 .movicard img {
     height: 100%;
     object-fit: cover;
+    cursor: pointer;
 
 }
 
@@ -20,7 +21,7 @@ figcaption.caption {
     left: 0;
     width: 50%;
     color: white;
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)70%, transparent);
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)80%, transparent);
     height: 100%;
 }
 
@@ -49,4 +50,14 @@ button.owl-prev,
     left: 0;
     
     width: 100%;
+}
+
+
+/* for movimain  */
+.heroimg{
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
