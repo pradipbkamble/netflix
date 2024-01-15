@@ -1,7 +1,3 @@
-.container {
-    max-width: 1180px;
-    width: 100%;
-}
 
 
 .movicard {
@@ -21,7 +17,7 @@ figcaption.caption {
     left: 0;
     width: 50%;
     color: white;
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)80%, transparent);
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)80%, transparent);
     height: 100%;
 }
 

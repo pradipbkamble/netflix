@@ -74,12 +74,13 @@ const gettrendingmovie = async () => {
         loop: true,
         margin: 10,
         nav: true,
-        timer: 1000,
+        timer: 500,
+        autoplay: true,
         navText: ['<i class="fa-solid fa-angles-left"></i>', '<i class="fa-solid fa-angles-right"></i>'],
         responsive: {
             0: {
                 items: 1,
-                dots:false
+                dots: false
             },
             600: {
                 items: 1

@@ -9,7 +9,7 @@ const apikey = `726d526427fe1cb49983c8daeb114609`;
 
 
 const makeapicall = async(apiurl, methodname, msgbody = null) => {
-    let res = await fetch(apiurl, {
+    let res = await fetch(apiurl,{
         body: msgbody,
         method: methodname,
        
