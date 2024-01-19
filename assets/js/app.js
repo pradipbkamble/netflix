@@ -46,7 +46,7 @@ let temp = (aray) => {
         result += `
     <div class="item">
         <figure class="m-0 movicard"id="${newobj.id}" onclick="loadparams(this)">
-            <img src="https://image.tmdb.org/t/p/original/${newobj.poster_path}" alt="${newobj.title || newobj.original_name}"
+            <img class="clickimg" src="https://image.tmdb.org/t/p/original/${newobj.poster_path}" alt="${newobj.title || newobj.original_name}"
                 title="${newobj.title || newobj.original_name}">
             <figcaption class="caption d-flex flex-column justify-content-center pl-3">
                 <h3 class="display-3">${newobj.title || newobj.original_name}</h3>

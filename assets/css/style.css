@@ -1,5 +1,8 @@
 
-
+.container{
+    max-width: 1440px;
+    width: 100%;
+}
 .movicard {
     height: 100vh;
 }
@@ -8,16 +11,17 @@
     height: 100%;
     object-fit: cover;
     cursor: pointer;
-
+    background-position: center;
+    
 }
 
 figcaption.caption {
     position: absolute;
-    top: 0%;
+    top: 0;
     left: 0;
     width: 50%;
     color: white;
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)80%, transparent);
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)80%, transparent);
     height: 100%;
 }
 
@@ -26,7 +30,7 @@ button.owl-prev,
     position: absolute;
     top: 50%;
     color: white !important;
-    font-size: 50px !important;
+    font-size: 30px !important;
 }
 
 .owl-next {
@@ -55,5 +59,88 @@ button.owl-prev,
     width: 100%;
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
+     background-attachment: fixed; 
+    position: relative;
+}
+figure.figinfo{
+    background-image: linear-gradient(80deg,rgba(0, 0, 0, 0.671),transparent);
+    position: absolute;
+    color: white;
+    width: 100%;
+    height: 100vh;
+    margin-left: -15px; 
+    
+}
+
+ul.movidetailse {
+    display: flex;
+    list-style: none;
+    margin-left: -55px;   
+}
+.movidetailse li{
+    border-right: 2px solid rgb(201, 185, 185);
+    padding: 0 15px 0 15px;
+}
+.movidetailse li:last-child{
+    border: 0px;
+}
+.movidetailse li:first-child{
+    padding-left: opx;
+}
+span{
+    display:block;
+    border: 2px solid ;
+    padding: 0 10px;
+}
+img.figlogo {
+   max-width: 200px;
+   
+}
+.allinform {
+    position: absolute;
+   padding: 20px;
+bottom: 40px;
+top: 10%;
+
+
+}
+.backpage {
+    color: white;
+    position: absolute;
+    z-index: 1;
+    top: 20px;
+    left: 50px;
+}
+.heroimg::before {
+    content: '';
+    position: absolute;
+    background-image:linear-gradient(0deg, rgba(30, 21, 21, 0.653),rgba(0, 0, 0, 0.516),transparent);
+    bottom: -400px;
+    left: 0px;
+    width: 100%;
+    display: block;
+    height: 50vh;
+    z-index: 10;
+}
+
+
+/* videocss */
+
+
+.primaryhead {
+    font-size: 35px;
+    font-weight: 400px;
+    line-height: 34px;
+    
+    top: -130px;
+    color: rgb(18, 10, 10);
+}
+.primaryhead small{
+    color:rgba(43, 27, 27, 0.37);
+    border-left: 2px solid;
+    padding-left: 10px;
+}
+img.videoimg {
+    width: 300px;
+    height: 200px;
 }
