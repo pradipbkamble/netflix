@@ -27,8 +27,8 @@ loadparams = (ele) => {
     let movieId = ele.id;
     //cl(moviId)
 
-    let currenturl = new URL(window.location.href);//
-    let queryparams = new URLSearchParams(currenturl.search);//for quryparam add we a predefine constructor 
+    let currenturl = new URL(window.location.href);//returns the href (URL) of the current page
+    let queryparams = new URLSearchParams(currenturl.search);// quryparam add in a predefine constructor 
     queryparams.set("movieid", movieId);//we have set moviid id and this id convert into string
     currenturl.search = queryparams.toString();
 
